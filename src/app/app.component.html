@@ -1,11 +1,12 @@
 <!-- <app-header></app-header>
 <router-outlet></router-outlet>
 <app-footer></app-footer> -->
-
+<app-sidenav (onToggleSideNav)="onToggleSideNav($event)"></app-sidenav>
 <div class="global-container">
     <div class="container">
         <app-header></app-header>
         <router-outlet></router-outlet>
+        
         <app-footer></app-footer>
     </div>
 </div>
